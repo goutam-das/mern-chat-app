@@ -2,7 +2,6 @@ const { resolve } = require('path');
 
 module.exports = {
     paths: function (paths, env) {
-        console.log(paths);
         paths.appIndexJs = resolve(__dirname, 'client', 'src', 'index.js');
         paths.appSrc = resolve(__dirname, 'client', 'src');
         paths.appPublic = resolve(__dirname, 'client', 'public');
